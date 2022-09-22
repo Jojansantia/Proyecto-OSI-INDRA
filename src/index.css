@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ppalScreen{
+  display: flex;
+  justify-content: center;
+  border: solid 1px;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+.auxComponent{
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.button{
+  border: 0;
+  margin: 5px;
+  padding: 5px;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btnRed{
+  background-color: rgb(204, 10, 10);
+}
+
+.btnBlue{
+  background-color: rgb(25, 73, 231);
+}
+
+.textRed{
+  color: rgb(204, 10, 10);
+}
+
+.textBlue{
+  color: rgb(25, 73, 231);
+}
